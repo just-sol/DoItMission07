@@ -19,7 +19,6 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        // process received intent
         Intent receivedIntent = getIntent();
         String username = receivedIntent.getStringExtra("username");
         String password = receivedIntent.getStringExtra("password");
